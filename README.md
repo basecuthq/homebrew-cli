@@ -1,2 +1,3 @@
 # homebrew-cli
-Basecut homebrew tap
+
+`brew install basecuthq/cli/basecut`
