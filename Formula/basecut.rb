@@ -2,35 +2,34 @@
 # frozen_string_literal: true
 
 # Basecut CLI - Database subsetting and sanitization for realistic dev environments.
-# Tap: brew tap basecuthq/cli
-# Install: brew install basecut
+# Install: brew install basecuthq/cli/basecut
 # This file is automatically updated by the release workflow.
 
 class Basecut < Formula
   desc "Database subsetting and sanitization for realistic dev environments"
   homepage "https://docs.basecut.dev"
-  version "0.1.1"
+  version "0.1.2"
   license :cannot_represent
 
   on_macos do
     on_intel do
-      url "https://github.com/basecuthq/homebrew-cli/releases/download/v#{version}/basecut-#{version}-darwin-amd64"
-      sha256 "dfc7d3ed1cc88abdb96e61e8d83d79e7550ef5bfdecab37f01ab6ae2c92125da"
+      url "https://github.com/basecuthq/cli/releases/download/v#{version}/basecut-#{version}-darwin-amd64"
+      sha256 "08a62de816bbff61139c8625fd5fd4e106b0005a791500f355fcb42f6b38abf9"
     end
     on_arm do
-      url "https://github.com/basecuthq/homebrew-cli/releases/download/v#{version}/basecut-#{version}-darwin-arm64"
-      sha256 "283c041cd0427518d9b94ce4bc8c2bf5814f55387719b69a11089994dd8369b1"
+      url "https://github.com/basecuthq/cli/releases/download/v#{version}/basecut-#{version}-darwin-arm64"
+      sha256 "119ce3bd399fa17d81a71b5d12cb63a16e242bdec5dda799355ab0f19bff0a63"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/basecuthq/homebrew-cli/releases/download/v#{version}/basecut-#{version}-linux-amd64"
-      sha256 "8c4005bcce9623a8bf5790ae7cad0c039a3c3d6c7e812510fe141dc348bb98d8"
+      url "https://github.com/basecuthq/cli/releases/download/v#{version}/basecut-#{version}-linux-amd64"
+      sha256 "500140f3f971be7f43e6e180ba1770b970b626ac2ad23574d672767b1ecb36fc"
     end
     on_arm do
-      url "https://github.com/basecuthq/homebrew-cli/releases/download/v#{version}/basecut-#{version}-linux-arm64"
-      sha256 "826467b514a8f70b41888b1518df808c848f582fc894b441f368ec089ad31bd7"
+      url "https://github.com/basecuthq/cli/releases/download/v#{version}/basecut-#{version}-linux-arm64"
+      sha256 "17928eb1e28876c600463811ad7f6869cdfdace1de599f766bcb15843187b546"
     end
   end
 
