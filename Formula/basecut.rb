@@ -8,28 +8,28 @@
 class Basecut < Formula
   desc "Database subsetting and sanitization for realistic dev environments"
   homepage "https://docs.basecut.dev"
-  version "0.1.3"
+  version "0.1.4"
   license :cannot_represent
 
   on_macos do
     on_intel do
       url "https://github.com/basecuthq/cli/releases/download/v#{version}/basecut-#{version}-darwin-amd64"
-      sha256 "5ec48703c5cd706713afb65fb1fdc85dd718ad983bd6b23720642239d55478ed"
+      sha256 "a2f09df9146ebdac0d7fa9f1473d678c9f0835155d520daac4fce17bc0c23890"
     end
     on_arm do
       url "https://github.com/basecuthq/cli/releases/download/v#{version}/basecut-#{version}-darwin-arm64"
-      sha256 "364a3277879a148f528117edf0f4c78a0b4284cae1cf66552760e87b41166100"
+      sha256 "59401e1ce0fe8dc4bd5577d416a764c9a978a81d555a7caa40eb293be46e865c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/basecuthq/cli/releases/download/v#{version}/basecut-#{version}-linux-amd64"
-      sha256 "e41ad90261400013dd8a620d16c342639e13d0351ca7fcb4585c2df96bdde0c1"
+      sha256 "c625786ff260086e1b7bd7c1917ab0bb607d80fc4b472f0593febbcfcd211815"
     end
     on_arm do
       url "https://github.com/basecuthq/cli/releases/download/v#{version}/basecut-#{version}-linux-arm64"
-      sha256 "a835e92f7bd301854f07d26c7b57f2e0e951b33818125c438e04f969ed695d1b"
+      sha256 "e11bed68271916fc3781ff63dcfb0f83590c1fd2e9d1acfa19b4aa3b63a1e23c"
     end
   end
 
